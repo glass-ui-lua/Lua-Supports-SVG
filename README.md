@@ -8,7 +8,6 @@ No external assets, no uploads, no HTTP needed. One file: `LuaSupportsSVG.luau` 
 
 ```lua
 local SVG = loadstring(game:HttpGet("https://raw.githubusercontent.com/glass-ui-lua/Lua-Supports-SVG/refs/heads/main/main.luau"))()
--- or: local SVG = loadstring(game:HttpGet("https://raw.githubusercontent.com/<you>/LuaSupportsSVG/main/LuaSupportsSVG.luau"))()
 
 local label = SVG.Render([[
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
